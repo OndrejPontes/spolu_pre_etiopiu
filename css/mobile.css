@@ -1,0 +1,192 @@
+.mobile {
+    display: block;
+}
+
+.pc {
+    display: none;
+}
+
+header {
+    height: auto;
+}
+
+.container {
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+
+header .logos .container {
+    flex-direction: column;
+    padding: 1rem;
+    max-width: none;
+}
+
+header .logos .container .logo {
+    max-height: 4rem;
+}
+
+header .logos .container .logo:not(:last-child) {
+    padding-bottom: 1rem
+}
+
+header .logos .container .logo img{
+    width: auto;
+}
+
+#domov .navbar {
+    position: static;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+#domov .navbar ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+#domov .navbar ul {
+    font-size: 1.5rem;
+}
+
+#domov .main-pic {
+    position: static;
+    background: none;
+}
+
+#domov .content div {
+    width: 60%;
+    padding: 1rem 0 4rem 2rem;
+}
+
+#domov .content div h1 {
+    font-size: 1.5rem;
+}
+
+#domov .content div h2 {
+    font-size: 1rem;
+}
+
+#domov .content div a {
+    font-size: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+#daruj p {
+    font-size: 1.5rem;
+}
+
+#daruj p:first-child {
+    padding-bottom: 0;
+}
+
+#daruj .together {
+    font-size: 2rem;
+    padding-bottom: 0;
+    line-height: 1;
+}
+
+#references .references {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+#references .references .reference {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+#references .references .reference img {
+    padding: 0 0 1rem 0;
+    margin: 0;
+}
+
+#references .references .reference .message {
+    font-size: 1.5rem;
+}
+
+#references .references .reference .message p img {
+    max-height: 1.8rem;
+    padding: 0;
+}
+
+#references #show-all-references, #references #show-main-references {
+    font-size: 1.5rem;
+}
+
+#general-statement .container p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#general-statement .container {
+    flex-direction: column;
+}
+
+#general-statement .container img {
+    padding-bottom: 1rem;
+    max-width: 15rem;
+}
+
+#organizations .info-box {
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+#organizations .info-box a {
+    text-decoration: underline;
+}
+
+#organizations .info-box .img-container {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+#faq .question p {
+    font-size: 1.5rem;
+}
+
+#faq .answer p {
+    font-size: 1.2rem;
+}
+
+#news  h2 {
+    margin: 0;
+    line-height: .5;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#news .new-box {
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+}
+
+#news #show-more, #news #show-less {
+    text-decoration: underline;
+}
+
+#contact .contact {
+    flex-direction: column;
+}
+
+#contact .email, #contact .phone {
+    height: auto;
+    padding: 0;
+    width: auto;
+    font-size: 1.5rem;
+}
+
+#contact p {
+    padding: 0;
+}
+
+#contact img {
+    width: 15rem;
+    padding: 1rem 0;
+}

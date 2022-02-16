@@ -1,0 +1,32 @@
+#domov .content div {
+    width: 60%;
+    padding: 1rem 0 11rem 2rem;
+}
+
+.navbar ul li a {
+    margin: 0;
+    padding: 10px 15px;
+}
+
+header .logos .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+header .logos .container .logo img {
+    max-height: 38px;
+}
+
+#references .references {
+    flex-direction: column;
+    margin: 0;
+}
+
+#references .references .reference {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#news .new-box {
+    padding: 1rem 2rem;
+}

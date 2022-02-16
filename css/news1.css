@@ -1,0 +1,29 @@
+#content img {
+    align-self: center;
+}
+
+#content h1 {
+    align-self: center;
+    padding-bottom: 2rem;
+}
+
+#content a {
+    color: black;
+}
+
+#content {
+    padding-top: 2rem;
+}
+
+#photo {
+    align-self: center;
+}
+
+#photo p {
+    font-size: 1.2rem;
+}
+
+.credits {
+    align-self: flex-end;
+    font-size: 1.2rem;
+}

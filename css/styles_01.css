@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Calibre";
+    background: #fff;
+    color: #000;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    padding: 0 30px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid #f48619;
+}
+
+.navbar img {
+    height: 70px;
+}
+
+/* ========== Header content =========== */
+
+header {
+    height: 100vh;
+}
+
+.main-pic {
+    background: url("../images/01.jpg") no-repeat center center/cover;
+    position: relative;
+    color: #000;
+}
+
+header .logos .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 5rem 10px 5rem;
+}
+
+header .logos .logo {
+    display: flex;
+}
+
+header .logos .logo img {
+    max-height: 50px;
+}
+
+header .logos .logo:last-of-type img {
+    max-height: 30px;
+    width: auto;
+}
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60%;
+}
+
+header .content div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+
+header .content div img {
+    max-height: 150px;
+}
+
+header .content h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+}
+
+header .content h2 {
+    font-weight: normal;
+    text-align: center;
+    width: 90%;
+}
+
+header .content a {
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 0.7rem;
+}
+/* ===================== */
+
+#daruj p:first-child {
+    padding-bottom: 1rem;
+}
+
+#daruj p {
+    font-size: 2rem;
+    text-align: justify;
+    width: 100%;
+}
+
+#daruj .description {
+    font-size: 1rem;
+    text-align: justify;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+#daruj .together {
+    text-align: center;
+    padding: 1.2rem 0 0.5rem 0;
+}
+
+#daruj .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+#daruj .box {
+    display: flex;
+    flex-direction: column;
+    height: 17rem;
+    padding: 1rem;
+}
+
+#daruj .box img {
+    max-width: 10rem;
+}
+
+#daruj .box .org-logo {
+    height: 70%;
+}
+
+#daruj .box .btn-part {
+    padding-top: 1rem;
+    height: 30%;
+}
+
+#daruj .box .btn-part a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#organizations .info-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+#organizations .info-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    padding: 2rem;
+}
+
+#organizations .info-box img {
+    max-width: 20%;
+    margin-right: 2rem;
+}
+
+.info-boxes .info-box:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+#organizations p {
+    margin-bottom: 1rem;
+}
+
+#organizations ul {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+#organizations li:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+#organizations a {
+    color: #000;
+    text-decoration: none;
+}
+
+#organizations h2:last-of-type {
+    padding-top: 2rem;
+}
+
+#organizations a:hover {
+    cursor: pointer;
+    color: #f48619;
+    text-decoration: underline;
+}
+
+#general-statement p {
+    font-size: 2rem;
+}
+
+#general-statement p:first-of-type {
+    text-align: justify;
+}
+
+#general-statement p:last-child {
+    align-self: flex-end;
+}
+
+#references .references {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+#references .references .reference:first-child {
+    margin-right: 1rem;
+}
+#references .references .reference {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 1.5rem;
+}
+
+#references .references .only {
+    width: 49.5%;
+}
+
+#references img {
+    width: 40%;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+#references .message {
+    display: flex;
+    flex-direction: column;
+}
+
+#references .message .author {
+    padding-top: 1rem;
+    text-align: end;
+}
+#references .message p {
+    line-height: 1;
+}
+
+#news .new-box {
+    width: 100%;
+    padding: 1rem 10rem;
+}
+
+#news .date-time {
+    font-weight: bold;
+    color: #f48619;
+}
+
+#news .new-box p:not(:first-child) {
+    padding-top: 0.5rem;
+    border-top: 2px #f48619 dashed;
+}
+
+#news .over {
+    display: none;
+}
+
+#news #show-more,
+#news #show-less {
+    padding-top: 1rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+#news #show-more span:hover,
+#news #show-less span:hover {
+    color: #f48619;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#news #show-less {
+    display: none;
+}
+
+#news .new-box p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+#news .new-box p a:hover {
+    color: #f48619;
+    text-decoration: underline;
+}
+
+#faq .before-question:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+#faq .before-question {
+    width: 100%;
+}
+
+#faq .question {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 1rem 1rem;
+    line-height: 1;
+}
+
+#faq .question > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+}
+
+#faq .question:hover {
+    cursor: pointer;
+    background-color: #f0d3b6;
+}
+
+#faq .question p {
+    margin-left: 1rem;
+}
+
+#faq .icon {
+    color: #fff;
+    padding-top: 0.3rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 0;
+}
+
+#faq .plus {
+    padding-top: 0.6rem;
+}
+
+#faq .minus {
+    display: none;
+}
+
+#faq .answer {
+    display: none;
+    width: 100%;
+    text-align: justify;
+    padding: 1rem;
+    border-top: 3px #fff dashed;
+}
+
+#faq .answer ol,
+#faq .answer ul {
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+#faq .answer li:not(:last-child) {
+    padding-bottom: 1rem;
+}
+
+#contact .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .email,
+#contact .phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 4rem;
+    padding: 0 4rem;
+}
+
+#contact p {
+    padding: 0.5rem 0 0 1rem;
+}
+
+#footer {
+    padding: 0.5rem;
+    text-align: center;
+    height: 40px;
+    color: #fff;
+}

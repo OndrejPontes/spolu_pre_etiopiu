@@ -1,0 +1,26 @@
+header {
+    height: auto;
+}
+
+#content {
+    align-items: flex-start;
+}
+
+#content h1 {
+    display: block;
+    text-align: center;
+}
+
+#content p {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+#content li {
+    list-style: none;
+    padding-left: 2rem;
+}
+
+#content ul {
+    padding-bottom: 1rem;
+}
